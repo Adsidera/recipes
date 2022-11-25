@@ -1,0 +1,9 @@
+<% if @search_params %>
+  <div class="mx-auto text-center my-4 bg-transparent">
+    <%= paginate @recipes %>
+  </div>
+<% end %>
+
+<section class="rounded grid grid-cols-3 gap-4 mb-4 mt-4">
+  <%= render 'list', recipes: @recipes %>
+</section>

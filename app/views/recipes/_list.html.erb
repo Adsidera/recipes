@@ -1,0 +1,25 @@
+<% if recipes %>
+  <% recipes.each do |recipe| %>
+    <div class="card">
+      <h2 class="text-lg p-4 mb-2"><%= recipe.title %>
+
+      <div class="flex items-center">
+        <% recipe.ratings.to_i.times do %>
+          <%= inline_svg_tag 'star.svg', class: 'w-3.5 mb-2 fill-amber-300 border-b-1 border-gray-200' %>
+        <% end %>
+        <% (5 - recipe.ratings.to_i).times do %>
+          <%= inline_svg_tag 'star.svg', class: 'w-3.5 mb-2 fill-white' %>
+        <% end %>
+      </div>
+
+      <img class="rounded" style='width: 50%; height: auto' src=<%= recipe.image %> />
+      <ul class="px-3 py-4 mt-2">
+        <% recipe.ingredients.split(' - ').each do |ingredient| %>
+          <li><%= ingredient %>
+        <% end %>
+        <li>Cooking Time: <%= readable recipe.cook_time %></li>
+        <li>Preparation Time: <%= readable recipe.prep_time %></li>
+      </ul>
+    </div>
+  <% end %>
+<% end %>

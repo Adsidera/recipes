@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+
+.pagination {
+  @apply flex justify-center;
+  @apply my-2 py-2;
+}
+
+.pagination * {
+  @apply px-3 py-2 mx-2;
+  @apply text-gray-700 no-underline bg-white rounded-lg;
+}
+
+.pagination a:hover {
+  @apply font-semibold text-gray-200 bg-gray-700;
+}
+
+@tailwind utilities;
+
+
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+
+  .card {
+    @apply bg-white border-b-2 border-gray-200 rounded p-6 shadow-xl;
+    }
+}
+

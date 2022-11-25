@@ -1,0 +1,122 @@
+[{
+  "title": "Brooklyn Style Pizza Dough",
+  "cook_time": 10,
+  "prep_time": 30,
+  "ingredients": [
+    "3 cups bread flour, divided, or as needed",
+    "1 cup warm water",
+    "1 tablespoon active dry yeast",
+    "½ teaspoon salt",
+    "2 tablespoons olive oil"
+  ],
+  "ratings": 4,
+  "cuisine": "",
+  "category": "Pizza Dough and Crusts",
+  "author": "Tammi",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3474709.jpg"
+},
+{
+  "title": "Diana's Hawaiian Bread Rolls",
+  "cook_time": 15,
+  "prep_time": 20,
+  "ingredients": [
+    "1 ½ cups warm water (110 degrees F/45 degrees C)",
+    "1 egg",
+    "1 teaspoon salt",
+    "1 teaspoon vanilla extract",
+    "1 teaspoon lemon extract",
+    "1 tablespoon molasses",
+    "1 tablespoon honey",
+    "5 tablespoons white sugar",
+    "2 tablespoons dry milk powder",
+    "2 tablespoons butter flavored shortening",
+    "4 ½ cups bread flour",
+    "2 teaspoons active dry yeast"
+  ],
+  "ratings": 4.25,
+  "cuisine": "",
+  "category": "Bread Machine",
+  "author": "CHIPPENDALE",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F50654.jpg"
+},
+{
+  "title": "Banana Banana Bread",
+  "cook_time": 65,
+  "prep_time": 15,
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "1 teaspoon baking soda",
+    "¼ teaspoon salt",
+    "½ cup butter",
+    "¾ cup brown sugar",
+    "2 eggs, beaten",
+    "2 ⅓ cups mashed overripe bananas"
+  ],
+  "ratings": 4.59,
+  "cuisine": "",
+  "category": "Banana Bread",
+  "author": "Shelley Albeluhn",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F-0001%2F11%2F30%2F4565477.jpg"
+},
+{
+  "title": "To Die For Blueberry Muffins",
+  "cook_time": 25,
+  "prep_time": 15,
+  "ingredients": [
+    "1 ½ cups all-purpose flour",
+    "¾ cup white sugar",
+    "½ teaspoon salt",
+    "2 teaspoons baking powder",
+    "⅓ cup vegetable oil",
+    "1 egg",
+    "⅓ cup milk, or more as needed",
+    "1 cup fresh blueberries",
+    "½ cup white sugar",
+    "⅓ cup all-purpose flour",
+    "¼ cup butter, cubed",
+    "1 ½ teaspoons ground cinnamon"
+  ],
+  "ratings": 4.64,
+  "cuisine": "",
+  "category": "Blueberry Muffins",
+  "author": "deleteduser",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F03%2F31%2F662790.jpg"
+},
+{
+  "title": "Breakfast Pull-Apart Bacon and Egg Bread",
+  "cook_time": 45,
+  "prep_time": 15,
+  "ingredients": [
+    "6 slices turkey bacon, cut into small pieces",
+    "butter-flavored cooking spray",
+    "2 (16 ounce) cans refrigerated biscuit dough",
+    "2 eggs",
+    "¼ cup skim milk",
+    "½ teaspoon salt",
+    "½ teaspoon ground black pepper",
+    "2 cups shredded sharp Cheddar cheese"
+  ],
+  "ratings": 5,
+  "cuisine": "",
+  "category": "Breakfast Bread",
+  "author": "Jacqueline",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9438466.jpg"
+},
+{
+  "title": "Quick and Easy Pizza Crust",
+  "cook_time": 0,
+  "prep_time": 0,
+  "ingredients": [
+    "1 (.25 ounce) package active dry yeast",
+    "1 teaspoon white sugar",
+    "1 cup warm water (110 degrees F/45 degrees C)",
+    "2 ½ cups bread flour",
+    "2 tablespoons olive oil",
+    "1 teaspoon salt"
+  ],
+  "ratings": 4.7,
+  "cuisine": "",
+  "category": "Pizza Dough and Crusts",
+  "author": "CHEF RIDER",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F11%2F09%2FQuick-and-Easy-Pizza-Crust2-2000.jpg"
+}]
