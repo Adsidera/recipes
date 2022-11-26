@@ -1,18 +1,16 @@
-# frozen_string_literal: true
+require 'sanitizer'
 
 class Recipe < ApplicationRecord
-  paginates_per 25
+  paginates_per 24
 
   class << self
     def search_text(query)
-      # with multiple words as a query, query terms need to be
+      # `to_tsquery` is not so flexible with compound words`
+      # Query terms need to be
       # separated by logical search operator like &, | and ! to be used with
       # with Postgresql's `to_tsquery`.
-      if query.is_a? Array
-        query = query.join(', ').gsub(', ', ' & ')
-      end
-
-      term = sanitize_sql(query)
+      cleaned_query = Sanitizer.adjust_compounds_for_sql(query.first).join(' & ')
+      term = sanitize_sql(cleaned_query)
       where("tsv @@ to_tsquery('#{term}')")
     end
 

@@ -38,5 +38,13 @@ RSpec.describe Recipe, type: :model do
         expect(search_text.count).to eq 1
       end
     end
+
+    context 'when querying multiple single and compound terms' do
+      let(:query) { ['salt, vanilla extract,  white sugar']}
+
+      it 'finds all the recipes with egg' do
+        expect(search_text.count).to eq 1
+      end
+    end
   end
 end
