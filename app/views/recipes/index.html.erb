@@ -1,9 +1,14 @@
-<% if @search_params %>
+<% if @params_present %>
   <div class="mx-auto text-center my-4 bg-transparent">
     <%= paginate @recipes %>
   </div>
 <% end %>
 
-<section class="rounded grid grid-cols-3 gap-4 mb-4 mt-4">
-  <%= render 'list', recipes: @recipes %>
-</section>
+<% if @recipes.any? %>
+  <section class="rounded grid grid-cols-3 gap-4 mb-4 mt-4">
+    <%= render 'list', recipes: @recipes, cached: true %>
+  </section>
+<% else %>
+  <%= render 'not_found' %>
+<% end %>
+
