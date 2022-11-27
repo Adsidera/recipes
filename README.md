@@ -3,7 +3,7 @@
 This application lets you find recipes from a list of ingredients that you have at home.
 It is powered by Rails 7, Postgresql, a very basic Tailwind UI and a pinch of Stimulus.
 
-You can see its demo on Heroku [here](https://https://new-recipe-finder.herokuapp.com/).
+You can see its demo on Heroku [here](https://new-recipe-finder.herokuapp.com/).
 
 Just type your ingredients in the searchbox, separated by commas. Beware of hyphens, though!
 
