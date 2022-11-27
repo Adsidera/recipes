@@ -1,0 +1,22 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
+
+Layout/LineLength:
+  Max: 99
+
+Metrics/BlockLength:
+  Max: 35
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/Documentation:
+  Exclude:
+    - 'app/controllers/*'
+
+Style/Encoding:
+  Enabled: false
