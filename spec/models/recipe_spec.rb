@@ -38,7 +38,7 @@ RSpec.describe Recipe, type: :model do
       let(:query) { ['egg, flour, bananas'] }
 
       it 'finds all the recipes with egg' do
-        expect(search_text).to match_array ['Banana Pudding']
+        expect(search_text).to match_array ['Banana Pudding', 'Golden Sweet Cornbread']
       end
     end
 
