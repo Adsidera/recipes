@@ -6,7 +6,7 @@ class RecipesController < ApplicationController
     @search_params = params[:q]
 
     if @search_params.present?
-      @recipes = Recipe.search_text(@search_params).order(:title).page params[:page]
+      @recipes = Recipe.search_text(@search_params).page params[:page]
       @recipes_count = @recipes.total_count
       @params_present = true
       # Reset the params to be able to accept new terms and avoid malformed queries, ie. StatementInvalid errors
